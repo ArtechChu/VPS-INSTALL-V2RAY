@@ -13,7 +13,7 @@ ubuntu/debian
 ```javascript
 apt-get update -y && apt-get install curl -y
 ```
-# 安装V2RAY
+## 安装V2RAY
 ```javascript
 bash <(curl -s -L https://raw.githubusercontent.com/ArtechChu/VPS-INSTALL-V2RAY/master/lib/install.sh)
 ```
@@ -22,7 +22,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/ArtechChu/VPS-INSTALL-V2RAY/
 
 端口：无特殊要求的话，默认即可
 
-# 管理命令
+## 管理命令
 - v2ray info 查看 V2Ray 配置信息
 - v2ray config 修改 V2Ray 配置
 - v2ray link 生成 V2Ray 配置文件链接

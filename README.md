@@ -1,7 +1,8 @@
 # VPS安装 V2RAY
 
 > 关于BBR安装：https://github.com/ArtechChu/VPS-INSTALL-SS
-> 引用自 223boy
+>
+> 参考自 223boy
 
 ## 安装 curl：
 centos：

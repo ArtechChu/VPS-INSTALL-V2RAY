@@ -1,5 +1,7 @@
 # VPS安装 V2RAY
 
+关于BBR安装：https://github.com/ArtechChu/VPS-INSTALL-SS
+
 ## 安装 curl：
 centos：
 ```javascript

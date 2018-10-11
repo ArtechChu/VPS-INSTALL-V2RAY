@@ -19,6 +19,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/ArtechChu/VPS-INSTALL-V2RAY/
 ```
 
 传输协议：无特殊要求的话，默认TCP即可
+
 端口：无特殊要求的话，默认即可
 
 # 管理命令

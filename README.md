@@ -29,16 +29,19 @@ apt-get -y install wget
     ```javascript
     bash <(curl -s -L https://raw.githubusercontent.com/ArtechChu/VPS-INSTALL-V2RAY/master/lib/install.sh)
     ```
-- debian
+- debian(含控制面板)
     ```javascript
     wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/V2ray.Fun/master/install.sh && bash install.sh
     ```
+    安装结束后需要设置一些控制面板的参数。
+    
 
 传输协议：无特殊要求的话，默认TCP即可
 
 端口：无特殊要求的话，默认即可
 
 ## 管理命令
+### centOS下安装后命令：
 - v2ray info 查看 V2Ray 配置信息
 - v2ray config 修改 V2Ray 配置
 - v2ray link 生成 V2Ray 配置文件链接
@@ -55,3 +58,6 @@ apt-get -y install wget
 - v2ray update 更新 V2Ray
 - v2ray update.sh 更新 V2Ray 管理脚本
 - v2ray uninstall 卸载 V2Ray
+
+### debian下安装后V2RAY命令：
+- v2ray 控制面板启动与否、控制面板相关设置选项

@@ -13,10 +13,26 @@ ubuntu/debian
 ```javascript
 apt-get update -y && apt-get install curl -y
 ```
-## 安装V2RAY
+
+## 安装 wget：
+centos：
 ```javascript
-bash <(curl -s -L https://raw.githubusercontent.com/ArtechChu/VPS-INSTALL-V2RAY/master/lib/install.sh)
+yum -y install wget
 ```
+ubuntu/debian
+```javascript
+apt-get -y install wget
+```
+
+## 安装V2RAY
+- centOS
+    ```javascript
+    bash <(curl -s -L https://raw.githubusercontent.com/ArtechChu/VPS-INSTALL-V2RAY/master/lib/install.sh)
+    ```
+- debian
+    ```javascript
+    wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/V2ray.Fun/master/install.sh && bash install.sh
+    ```
 
 传输协议：无特殊要求的话，默认TCP即可
 
